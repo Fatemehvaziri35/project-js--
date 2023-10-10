@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>project js</title>
+</head>
+
+<body class="overflow">
+  <nav id="menu">
+    <h1>JobEntry</h1>
+    <div class="menu-container">
+      <button class="button">
+        Menu
+        <i class='bx bx-menu'></i>
+      </button>
+      <ul class="menu-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Pages</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="slider">
+    <img src="img/carousel-1.jpg" alt="" class="active">
+    <img src="img/carousel-2.jpg" alt="">>
+    <i class='bx bx-left-arrow-alt left'></i>
+    <i class='bx bx-right-arrow-alt right'></i>
+    <p class="clock"></p>
+
+  </section>
+  <section class="inputs">
+    <div class="input-item">
+      <input type="text" placeholder="Keyword" class="Keyword">
+    </div>
+    <div class="options">
+      <select class="select">
+        <option selected>Category</option>
+        <option value="1">Category 1</option>
+        <option value="2">Category 2</option>
+        <option value="3">Category 3</option>
+      </select>
+    </div>
+    <div class="location">
+      <select class="select">
+        <option selected>Location</option>
+        <option value="1">Location 1</option>
+        <option value="2">Location 2</option>
+        <option value="3">Location 3</option>
+      </select>
+    </div>
+    <div class="search">
+      <button class="btn-search">Search</button>
+    </div>
+
+  </section>
+  <section class="explore">
+    <h1>Explore By Category</h1>
+    <h6>(Please Click)</h6>
+    <div class="explor-item">
+      <div>
+        <i class="fa fa-3x fa-mail-bulk text-primary mb-4"></i>
+        <h3>Marketing</h3>
+        <button class="click">click</button>
+      </div>
+      <div>
+        <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+        <h3>Customer Service</h3>
+        <button class="click">click</button>
+      </div>
+      <div>
+        <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+        <h3>Human Resource</h3>
+        <button class="click">click</button>
+      </div>
+      <div>
+        <i class="fa fa-3x fa-tasks text-primary mb-4"></i>
+        <h3>Project Management</h3>
+        <button class="click">click</button>
+      </div>
+      <div>
+        <i class="fa fa-3x fa-chart-line text-primary mb-4"></i>
+        <h3>Business Development</h3>
+        <button class="click">click</button>
+      </div>
+      <div>
+        <i class="fa fa-3x fa-hands-helping text-primary mb-4"></i>
+        <h3>Sales & Communication</h3>
+        <button class="click">click</button>
+      </div>
+      <div>
+        <i class="fa fa-3x fa-book-reader text-primary mb-4"></i>
+        <h3>Teaching & Education</h3>
+        <button class="click">click</button>
+      </div>
+      <div>
+        <i class="fa fa-3x fa-drafting-compass text-primary mb-4"></i>
+        <h3>Design & Creative</h3>
+        <button class="click">click</button>
+      </div>
+    </div>
+  </section>
+  <section class="job-list">
+    <h1>Job Listing</h1>
+    <div class="box show">
+      <img src="img/com-logo-1.jpg" alt="#">
+      <div class="card">
+        <h5 class="Software">Software Engineer</h5>
+        <span class="new"><i class="fa fa-map-marker-alt "></i>New York, USA</span>
+        <span class="new"><i class="far fa-clock "></i>Full Time</span>
+        <span class="new"><i class="far fa-money-bill-alt "></i>$123 - $456</span>
+      </div>
+      <div class="heart-date">
+        <div class="heart">
+          <i class="far fa-heart"></i>
+          <button class="apply">Apply Now</button>
+        </div>
+        <div class="">
+          <span class="date"><i class="far fa-calendar-alt"></i>Date Line: 01 Jan, 2045</span>
+        </div>
+      </div>
+    </div>
+    <div class="box ">
+      <img src="img/com-logo-2.jpg" alt="#">
+      <div class="card">
+        <h5 class="Software">Marketing Manager</h5>
+        <span class="new"><i class="fa fa-map-marker-alt "></i>New York, USA</span>
+        <span class="new"><i class="far fa-clock "></i>Full Time</span>
+        <span class="new"><i class="far fa-money-bill-alt "></i>$123 - $456</span>
+      </div>
+      <div class="heart-date">
+        <div class="heart">
+          <i class="far fa-heart"></i>
+          <button class="apply">Apply Now</button>
+        </div>
+        <div class="">
+          <span class="date"><i class="far fa-calendar-alt"></i>Date Line: 01 Jan, 2045</span>
+        </div>
+      </div>
+    </div>
+    <div class="box ">
+      <img src="img/com-logo-3.jpg" alt="#">
+      <div class="card">
+        <h5 class="Software">Product Designer</h5>
+        <span class="new"><i class="fa fa-map-marker-alt "></i>New York, USA</span>
+        <span class="new"><i class="far fa-clock "></i>Full Time</span>
+        <span class="new"><i class="far fa-money-bill-alt "></i>$123 - $456</span>
+      </div>
+      <div class="heart-date">
+        <div class="heart">
+          <i class="far fa-heart"></i>
+          <button class="apply">Apply Now</button>
+        </div>
+        <div class="">
+          <span class="date"><i class="far fa-calendar-alt"></i>Date Line: 01 Jan, 2045</span>
+        </div>
+      </div>
+    </div>
+    <div class="box ">
+      <img src="img/com-logo-4.jpg" alt="#">
+      <div class="card">
+        <h5 class="Software">Creative Director</h5>
+        <span class="new"><i class="fa fa-map-marker-alt "></i>New York, USA</span>
+        <span class="new"><i class="far fa-clock "></i>Full Time</span>
+        <span class="new"><i class="far fa-money-bill-alt "></i>$123 - $456</span>
+      </div>
+      <div class="heart-date">
+        <div class="heart">
+          <i class="far fa-heart"></i>
+          <button class="apply">Apply Now</button>
+        </div>
+        <div class="">
+          <span class="date"><i class="far fa-calendar-alt"></i>Date Line: 01 Jan, 2045</span>
+        </div>
+      </div>
+    </div>
+    <div class="box ">
+      <img src="img/com-logo-5.jpg" alt="#">
+      <div class="card">
+        <h5 class="Software">Wordpress Developer</h5>
+        <span class="new"><i class="fa fa-map-marker-alt "></i>New York, USA</span>
+        <span class="new"><i class="far fa-clock "></i>Full Time</span>
+        <span class="new"><i class="far fa-money-bill-alt "></i>$123 - $456</span>
+      </div>
+      <div class="heart-date">
+        <div class="heart">
+          <i class="far fa-heart"></i>
+          <button class="apply">Apply Now</button>
+        </div>
+        <div class="">
+          <span class="date"><i class="far fa-calendar-alt"></i>Date Line: 01 Jan, 2045</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <button id="button-modal">Browse More Jobs(Modal)</button>
+  <div class="div-modal">
+    <p>What makes a job 'entry-level'? An entry-level job is typically one you can perform without any prior education
+      or experience because you will likely receive some amount of on-the-job training in order to be successful.
+      Entry-level jobs can be either part-time or full-time. For some people, this may be their first job</p>
+    <img src="img/about-1.jpg" alt="explore-the-world">
+    <button id="close-modal">close</button>
+  </div>
+  <div class="overlay"></div>
+
+
+  <div class="client">
+    <h1>Our Clients Say!!!</h1>
+  </div>
+
+  <div id="formList">
+
+    <div id="list">
+      <div class="item">
+        <img src="img/testimonial-1.jpg" class="avatar">
+        <div class="name">
+          <h5 class="mb-1">Client Name</h5>
+          <p>Profession</p>
+        </div>
+        <div class="content">
+
+          <i class="fa fa-quote-left "></i>
+          <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/testimonial-2.jpg" class="avatar">
+        <div class="name">
+          <h5 class="mb-1">Client Name</h5>
+          <p>Profession</p>
+        </div>
+        <div class="content">
+
+          <i class="fa fa-quote-left "></i>
+          <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/testimonial-3.jpg" class="avatar">
+        <div class="name">
+          <h5 class="mb-1">Client Name</h5>
+          <p>Profession</p>
+        </div>
+        <div class="content">
+
+          <i class="fa fa-quote-left "></i>
+          <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/testimonial-4.jpg" class="avatar">
+        <div class="name">
+          <h5 class="mb-1">Client Name</h5>
+          <p>Profession</p>
+        </div>
+        <div class="content">
+
+          <i class="fa fa-quote-left "></i>
+          <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/testimonial-1.jpg" class="avatar">
+        <div class="name">
+          <h5 class="mb-1">Client Name</h5>
+          <p>Profession</p>
+        </div>
+        <div class="content">
+
+          <i class="fa fa-quote-left "></i>
+          <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/testimonial-3.jpg" class="avatar">
+        <div class="name">
+          <h5 class="mb-1">Client Name</h5>
+          <p>Profession</p>
+        </div>
+        <div class="content">
+
+          <i class="fa fa-quote-left "></i>
+          <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="direction">
+    <button id="prev">
+      <</button>
+        <button id="next"> > </button>
+  </div>
+
+  <section class="login-item">
+    <h1>Newsletter</h1>
+    <h6>(Api)</h6>
+    <div class="login-container">
+      <div class="input-field">
+        <input type="text" placeholder="email" id="email">
+        <br>
+        <i class='bx bx-user'></i>
+      </div>
+      <div class="input-field">
+        <input type="password" placeholder="password" id="password">
+        <br>
+        <i class='bx bx-lock-alt' aria-hidden="true"></i>
+        <i class='bx bx-show' id="showIcon" style='color:#000000'></i>
+      </div>
+      <input type="submit" value="login" id="login">
+    </div>
+  </section>
+
+
+
+  <footer>
+
+    <div class="first-item">
+      <h5>Company</h5>
+      <a class="btn " href="">About Us</a>
+      <a class="btn " href="">Contact Us</a>
+      <a class="btn " href="">Our Services</a>
+      <a class="btn " href="">Privacy Policy</a>
+      <a class="btn " href="">Terms & Condition</a>
+    </div>
+
+    <div class="second-item">
+      <h5>Quick Links</h5>
+      <a class="btn " href="">About Us</a>
+      <a class="btn " href="">Contact Us</a>
+      <a class="btn " href="">Our Services</a>
+      <a class="btn " href="">Privacy Policy</a>
+      <a class="btn " href="">Terms & Condition</a>
+    </div>
+
+    <div class="third-item">
+      <h5>Contact</h5>
+      <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
+      <p><i class="fa fa-phone-alt "></i>+012 345 67890</p>
+      <p><i class="fa fa-envelope "></i>info@example.com</p>
+      <div class="icon">
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
